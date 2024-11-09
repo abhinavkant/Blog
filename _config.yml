@@ -1,0 +1,31 @@
+collections:
+  authors:
+    output: true
+
+gems:
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 10
+  offset: 2
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2 # The number of links before the current page
+    after: 2 # The number of links after the current page
+  extension: html
+  indexpage: "blog"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
