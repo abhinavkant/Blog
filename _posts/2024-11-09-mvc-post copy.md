@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Test"
-author: abhinav
+title: "Test 2"
 ---
-
-# One
 
 |--|--|--|--|--|--|--|--|
 |♜| |♝|♛|♚|♝|♞|♜|
